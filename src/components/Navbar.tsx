@@ -19,18 +19,7 @@ function Navbar() {
       <Text style={styles.header_text}>
         Spotii-<Text style={styles.chan}>Chan</Text>
       </Text>
-      <TouchableHighlight
-        style={styles.github}
-        onPress={() => {
-          Linking.openURL(
-            'https://github.com/yashraj-n/spotiichan-react-native',
-          );
-        }}>
-        <Image
-          source={require('../../assets/imgs/github.png')}
-          style={styles.github_logo}
-        />
-      </TouchableHighlight>
+
     </View>
   );
 }
